@@ -176,15 +176,15 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container" style="max-width: 900px;">
-      <h2 class="title is-3 has-text-centered">Architecture</h2>
+      <h2 class="title is-3 has-text-centered">Method</h2>
       <div class="columns is-centered is-mobile">
         <div class="column is-one-half">
-          <img src="static/images/autonomous_pollination_system.png" alt="MaskACT Architecture Overview" width="100%">
-          <p class="has-text-centered mt-2">MaskACT Architecture Overview</p>
+          <img src="static/images/systemsetup.png" alt="Experiment Setup" width="100%">
+          <p class="has-text-centered mt-2">Experiment Setup</p>
         </div>
         <div class="column is-one-half">
-          <img src="static/images/behavior_trees.png" alt="Masked Action Transformer" width="100%">
-          <p class="has-text-centered mt-2">Masked Action Transformer</p>
+          <img src="static/images/architecture.png" alt="Model Architecture" width="100%">
+          <p class="has-text-centered mt-2">Model Architecture</p>
         </div>
       </div>
       <div class="content has-text-justified mt-4">
@@ -210,38 +210,37 @@
             The results demonstrate the effectiveness of our masked action transformer approach across different tasks and environments.
           </p>
           
-          <div class="table-container" style="margin: 2rem 0;">
-            <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+          <div class="table-container" style="margin: 2rem 0; overflow-x: auto;">
+            <table class="table is-narrow is-fullwidth" 
+                   style="background-color: white; border-collapse: collapse; font-size: 0.9rem; border-top: 2px solid #333; border-bottom: 2px solid #333;">
               <thead>
                 <tr>
-                  <th>Algorithm</th>
-                  <th># of exp.</th>
-                  <th>Success Counts</th>
-                  <th></th>
-                  <th></th>
+                  <th style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: 1px solid #333; border-bottom: 1px solid #333; background-color: #f5f5f5; font-weight: bold;">Algorithm</th>
+                  <th style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: 1px solid #333; border-bottom: 1px solid #333; background-color: #f5f5f5; font-weight: bold;"># of exp.</th>
+                  <th colspan="3" style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: 1px solid #333; border-bottom: 1px solid #333; background-color: #f5f5f5; font-weight: bold;">Success Counts</th>
                 </tr>
                 <tr>
-                  <th></th>
-                  <th></th>
-                  <th>Approach</th>
-                  <th>Grasp</th>
-                  <th>Thinning</th>
+                  <th style="padding: 0.6rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid #333; background-color: #f5f5f5; font-weight: bold;"></th>
+                  <th style="padding: 0.6rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid #333; background-color: #f5f5f5; font-weight: bold;"></th>
+                  <th style="padding: 0.6rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid #333; background-color: #f5f5f5; font-weight: bold;">Approach</th>
+                  <th style="padding: 0.6rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid #333; background-color: #f5f5f5; font-weight: bold;">Grasp</th>
+                  <th style="padding: 0.6rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid #333; background-color: #f5f5f5; font-weight: bold;">Thinning</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><strong>MaskACT (Ours)</strong></td>
-                  <td>50</td>
-                  <td><strong>42</strong></td>
-                  <td><strong>38</strong></td>
-                  <td><strong>31</strong></td>
+                  <td style="padding: 0.8rem; text-align: left; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid #333; font-weight: bold;">MaskACT (Ours)</td>
+                  <td style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid #333;">50</td>
+                  <td style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid #333; font-weight: bold;">42</td>
+                  <td style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid #333; font-weight: bold;">38</td>
+                  <td style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid #333; font-weight: bold;">31</td>
                 </tr>
                 <tr>
-                  <td>ACT</td>
-                  <td>50</td>
-                  <td>34</td>
-                  <td>21</td>
-                  <td>20</td>
+                  <td style="padding: 0.8rem; text-align: left; border-left: none; border-right: none; border-top: none; border-bottom: none;">ACT</td>
+                  <td style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: none;">50</td>
+                  <td style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: none;">34</td>
+                  <td style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: none;">21</td>
+                  <td style="padding: 0.8rem; text-align: center; border-left: none; border-right: none; border-top: none; border-bottom: none;">20</td>
                 </tr>
               </tbody>
             </table>
