@@ -154,16 +154,9 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            This paper presents MaskACT, a novel approach for robotic manipulation that leverages masked action transformers
-            to learn complex manipulation behaviors from demonstration data. Unlike traditional imitation learning methods,
-            MaskACT employs a masked prediction objective that enables the model to learn robust manipulation policies
-            by predicting masked action sequences. The proposed architecture integrates visual perception with action prediction,
-            allowing the robot to perform precise manipulation tasks in diverse environments. Experimental results demonstrate
-            that MaskACT achieves superior performance compared to existing methods on standard manipulation benchmarks,
-            showing improved generalization capabilities and robustness to environmental variations. The framework's ability
-            to handle partial observability and learn from limited demonstration data makes it particularly suitable for
-            real-world robotic applications where data collection is expensive and time-consuming.
-          </p>
+            Automating flower thinning for high-value crops such as strawberries is critical for optimizing yield, yet it poses a
+            significant challenge in perceiving target flower that is occluded by the unstructured farm environments. In this paper, MaskACT
+            (Mask Action Chunking with Transformer) is introduced, a refined imitation learning framework that enhances ACT (Action Chunking with Transformer) with a binary mask from a visual tracker to guide the policy’s attention. This approach simplifies the learning problem by providing a clear spatial prior of the target. MaskACT achieved a final thinning success rate of 62%, representing an improvement over the baseline’s 40%. Furthermore, the framework demonstrated higher efficiency, completing the task with an average cycle time of approximately 7 seconds, compared to 9 seconds for the baseline. This study highlights the potential of using target tracking to resolve perceptual ambiguity, thereby improving the robustness and efficiency of imitation learning systems.
         </div>
       </div>
     </div>
